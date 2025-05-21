@@ -9,4 +9,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'gitAngular';
+
+  constructor() {
+    console.log('Nuevas fuciones');
+    console.warn("Cuidado");
+    console.log("Prueba de conflictos")
+  }
 }

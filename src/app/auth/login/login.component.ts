@@ -1,14 +1,8 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-
 @Component({
   selector: 'app-login',
-  imports: [],
   templateUrl: './login.component.html',
-  styles: `
-    :host {
-      display: block;
-    }
-  `,
+  styleUrls: ['./login.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LoginComponent { }
+export class LoginComponent {}

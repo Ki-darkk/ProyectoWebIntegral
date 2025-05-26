@@ -4,11 +4,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-register',
   imports: [],
   templateUrl: './register.component.html',
-  styles: `
-    :host {
-      display: block;
-    }
-  `,
+
+ styleUrls: ['./register.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class RegisterComponent { }
